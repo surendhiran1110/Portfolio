@@ -1,9 +1,7 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import mock1 from "../img/pic1.png"
+import mock2 from "../img/pic2.png"
+import mock3 from "../img/pic3.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -27,118 +25,94 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
+    firstName: "Surendhiran",
+    lastName: "Shanmugam",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    position: "a Enthusiastic Cloud Engineer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
-        },
-        {
-            emoji: '🌎',
-            text: 'based in the US'
-        },
-        {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Studying in Karpagam Institute of Technology"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "surendhirans1110@gmail.com"
         }
     ],
     socials: [
-        {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
-            icon: "fa fa-github",
-            label: 'github'
-        },
-        {
-            link: "https://linkedin.com",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+            {
+              "link": "https://instagram.com",
+              "icon": "fa fa-instagram",
+              "label": "instagram"
+            },
+            {
+              "link": "https://github.com/surendhiran1110",
+              "icon": "fa fa-github",
+              "label": "github"
+            },
+            {
+              "link": "https://www.linkedin.com/in/surendhiran1110/",
+              "icon": "fa fa-linkedin",
+              "label": "linkedin"
+            },
+            {
+              "link": "https://leetcode.com/u/surendhar_IT/",
+              "icon": "fa fa-leetcode",
+              "label": "leetcode"
+            }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Greetings! I'm Surendhiran S, a passionate cloud engineer with a background in Information Technology from Karpagam Institute of Technology. I thrive on delving into the intricacies of cloud systems and leveraging technology to solve complex problems. I'm excited about the endless possibilities that cloud computing offers and am eager to contribute my skills to meaningful projects.",
+
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+          proficientWith: [,'java','javascript', 'react', 'git', 'github', 'devops', 'html5', 'css3', 'cloud aws'],
+          exposedTo: ['nodejs', 'python', 'GithubActions','jenkins']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
-        },
-        {
-            label: 'theater',
-            emoji: '🎭'
-        },
-        {
-            label: 'movies',
-            emoji: '🎥'
-        },
-        {
+            label: 'listening musics',
+            emoji: '🎵'
+          },
+          {
+            label: 'programming',
+            emoji: '💻'
+          },
+          {
+            label: 'cricket',
+            emoji: '🏏'
+          },
+          {
             label: 'cooking',
-            emoji: '🌶'
-        }
+            emoji: '🍳'
+          }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Speech to Text Translation",
+            // live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/surendhiran1110/speechtotext-_translation", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "flask-s3_resume_generator ",
+            // live: "https://paytonpierce.dev",
+            source: "https://github.com/surendhiran1110/flask-s3_resume_generator",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Sample java webapp with maven ",
+            // live: "https://paytonpierce.dev",
+            source: "https://github.com/surendhiran1110/deploytrails",
             image: mock3
         },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
     ]
 }
