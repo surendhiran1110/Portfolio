@@ -71,7 +71,7 @@ export const info = {
 
     skills:
         {
-          proficientWith: [,'java','javascript', 'react', 'git', 'github', 'devops', 'html5', 'css3', 'cloud aws'],
+          proficientWith: ['java','javascript', 'react', 'git', 'github', 'devops', 'html5', 'css3', 'cloud aws'],
           exposedTo: ['nodejs', 'python', 'GithubActions','jenkins']
         }
     ,
