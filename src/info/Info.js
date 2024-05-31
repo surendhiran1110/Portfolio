@@ -67,8 +67,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Greetings! I'm Surendhiran S, a passionate cloud engineer with a background in Information Technology from Karpagam Institute of Technology. I thrive on delving into the intricacies of cloud systems and leveraging technology to solve complex problems. I'm excited about the endless possibilities that cloud computing offers and am eager to contribute my skills to meaningful projects.",
-
+    bio: "Greetings! I'm Surendhiran S, a passionate cloud engineer with a background in Information Technology from Karpagam Institute of Technology. I thrive on delving into the intricacies of cloud systems and leveraging technology to solve complex problems. Recently, I have enhanced my skill set by learning various DevOps tools such as Git for version control, and GitHub Actions for creating and integrating CI/CD pipelines. I have also gained proficiency in Docker for containerization, Terraform, Kubernetes (K8S), and basic Linux commands. Additionally, I have delved into file handling management using Python scripting. My hands-on experience extends to various AWS services, including EC2, S3, Lambda, DynamoDB, and CloudFront. These tools and technologies have allowed me to undertake and complete several hands-on projects, further solidifying my expertise. I'm excited about the endless possibilities that cloud computing combined with DevOps offers and am eager to contribute my skills to meaningful projects."
     skills:
         {
           proficientWith: ['java','javascript', 'react', 'git', 'github', 'devops', 'html5', 'css3', 'cloud aws'],
