@@ -35,7 +35,7 @@ export const info = {
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: "💼",
-            text: "Studying in Karpagam Institute of Technology"
+            text: "Studying in Pre-Final Year B.Tech IT"
         },
         {
             emoji: "📧",
@@ -67,11 +67,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Greetings! I'm Surendhiran S, a passionate cloud engineer with a background in Information Technology from Karpagam Institute of Technology. I thrive on delving into the intricacies of cloud systems and leveraging technology to solve complex problems. Recently, I have enhanced my skill set by learning various DevOps tools such as Git for version control, and GitHub Actions for creating and integrating CI/CD pipelines. I have also gained proficiency in Docker for containerization, Terraform, Kubernetes (K8S), and basic Linux commands. Additionally, I have delved into file handling management using Python scripting. My hands-on experience extends to various AWS services, including EC2, S3, Lambda, DynamoDB, and CloudFront. These tools and technologies have allowed me to undertake and complete several hands-on projects, further solidifying my expertise. I'm excited about the endless possibilities that cloud computing combined with DevOps offers and am eager to contribute my skills to meaningful projects."
+    bio: "Hi there! I'm Surendhiran S, an IT professional passionate about cloud engineering. With a foundation from Karpagam Institute of Technology, I specialize in cloud systems and love solving complex challenges with technology. I've mastered DevOps tools like Git, GitHub Actions, Docker, Terraform, and Kubernetes. Proficient in Python scripting for file management, I've honed my skills with hands-on projects using AWS services like EC2, S3, Lambda, DynamoDB, and CloudFront. Excited about the fusion of cloud computing and DevOps, I'm eager to contribute to impactful projects.",
     skills:
         {
-          proficientWith: ['java','git', 'devops', 'html5', 'css3', 'cloud aws'],
-          exposedTo: ['nodejs', 'python', 'GithubActions','jenkins','Docker','Terraform','Django',,'Flask']
+          proficientWith: ['Java','Git','Devops', 'HTML5', 'css3', 'Cloud Aws'],
+          exposedTo: ['Scripting','GithubActions','jenkins','Docker','Terraform','Django','Flask']
         }
     ,
     hobbies: [
@@ -102,7 +102,7 @@ export const info = {
             image: mock1
         },
         {
-            title: "flask-s3_resume_generator ",
+            title: "flask_s3_resume_generator ",
             // live: "https://paytonpierce.dev",
             source: "https://github.com/surendhiran1110/flask-s3_resume_generator",
             image: mock2
